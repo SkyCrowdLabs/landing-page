@@ -9,21 +9,21 @@ const Hero = () => {
         alt="squiggly graphics"
         height={300}
         width={280}
-        className="absolute top-18 left-[calc(50%-80px)]"
+        className="absolute top-18 left-[calc(50%-80px)] -z-20"
       />
       <Image
         src="/squiggly-7.svg"
         alt="squiggly graphics"
         height={300}
         width={280}
-        className="absolute top-1/3 -left-24 rotate-90"
+        className="absolute top-1/3 -left-24 rotate-90 -z-20"
       />
       <Image
         src="/squiggly-3.svg"
         alt="squiggly graphics"
         height={320}
         width={330}
-        className="absolute -bottom-28 -right-16 -rotate-[150deg]"
+        className="absolute -bottom-28 -right-16 -rotate-[150deg] -z-20"
       />
       <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
         <div className="text-center">

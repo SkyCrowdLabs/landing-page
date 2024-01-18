@@ -18,6 +18,7 @@ const config: Config = {
         "dark-indigo": "#280E5E",
         "mid-indigo": "#4B36B5",
         "light-indigo": "#6453F3",
+        "light-purple": "#ACA2FC",
       },
     },
   },
