@@ -8,14 +8,14 @@ const WhatWeDo = () => {
         alt="squiggly graphics"
         height={400}
         width={380}
-        className="absolute -bottom-20 right-5"
+        className="absolute -bottom-20 right-5 z-20"
       />
       <Image
         src="/squiggly-8.svg"
         alt="squiggly graphics"
         height={420}
         width={400}
-        className="absolute -bottom-32 rotate-[-20deg]"
+        className="absolute -bottom-32 z-20 rotate-[-20deg]"
       />
       <div className="mx-auto max-w-4xl text-center">
         <p className="text-base font-semibold uppercase tracking-widest text-dark-indigo">
