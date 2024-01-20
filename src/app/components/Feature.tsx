@@ -1,9 +1,9 @@
-import { BoltIcon, GlobeAltIcon, ScaleIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
+import { BoltIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 const features = [
   {
-    name: "Collaborative and consultative discovery process",
+    name: 'Collaborative and consultative discovery process',
     icon: (
       <Image
         src="/collab.png"
@@ -15,7 +15,7 @@ const features = [
     ),
   },
   {
-    name: "Custom, high-quality web and app design",
+    name: 'Custom, high-quality web and app design',
     icon: (
       <Image
         src="/app.png"
@@ -27,7 +27,7 @@ const features = [
     ),
   },
   {
-    name: "Long-term support for your evolving needs and goals",
+    name: 'Long-term support for your evolving needs and goals',
     icon: (
       <Image
         src="/support.png"
@@ -51,7 +51,7 @@ const Feature = () => {
                 <div className="flex items-center justify-center rounded-xl">
                   {feature.icon}
                 </div>
-                <p className="mt-6 text-white leading-8 text-xl tracking-wider text-center px-16 font-semibold">
+                <p className="mt-6 px-16 text-center text-xl font-semibold leading-8 tracking-wider text-white">
                   {feature.name}
                 </p>
               </dt>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <div className="hidden md:flex md:flex-1 md:justify-end tracking-wide">
+        <div className="hidden tracking-wide md:flex md:flex-1 md:justify-end">
           Bespoke web development services
         </div>
       </nav>
