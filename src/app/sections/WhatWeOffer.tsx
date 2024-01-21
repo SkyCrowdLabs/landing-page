@@ -30,7 +30,7 @@ const WhatWeOffer = () => {
       <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <SectionTitle title={'What we offer'} />
-          <SectionHeader header={'Bring Your Self or Business Online'} />
+          <SectionHeader header={'Bring Your Business Online'} />
         </div>
       </div>
       <div className="flow-root bg-white pb-24 sm:pb-32">
@@ -61,13 +61,13 @@ const WhatWeOffer = () => {
                     Bespoke Solutions
                   </h3>
                   <p className="mt-1 text-base leading-7 text-gray-600">
-                    Dolor dolores repudiandae doloribus. Rerum sunt aut eum.
-                    Odit omnis non voluptatem sunt eos nostrum.
+                    Don’t see what you need here? Let’s talk and figure out your
+                    needs further.
                   </p>
                 </div>
               </div>
               <div className="flex justify-center lg:col-span-3">
-                <Button copy={'Get a quotation →'} />
+                <Button copy={'Get a quotation'} />
               </div>
             </div>
           </div>

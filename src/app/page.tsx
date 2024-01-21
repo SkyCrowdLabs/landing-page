@@ -5,6 +5,7 @@ import WhatWeDo from './sections/WhatWeDo';
 import WhoWeAre from './sections/WhoWeAre';
 import WhatWeOffer from './sections/WhatWeOffer';
 import FAQ from './sections/FAQ';
+import GetInTouch from './sections/GetInTouch';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WhoWeAre />
       <WhatWeOffer />
       <FAQ />
+      <GetInTouch />
     </div>
   );
 };

@@ -33,7 +33,7 @@ const Hero = () => {
           <p className="mt-4 text-2xl font-medium leading-8 text-dark-indigo">
             The world needs what you’re offering. Make sure they see it.
           </p>
-          <Button copy={'GET A FREE CONSULTATION →'} />
+          <Button copy={'GET A FREE CONSULTATION'} />
         </div>
       </div>
     </div>

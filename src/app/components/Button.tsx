@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({ copy, href = '#' }) => {
         href={href}
         className="rounded-full bg-light-indigo px-14 py-5 text-xs uppercase tracking-wider text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
-        {copy}
+        {`${copy} →`}
       </a>
     </div>
   );
