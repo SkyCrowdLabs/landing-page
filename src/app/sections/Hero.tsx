@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Button from '../components/Button';
+import SectionHeader from '../components/SectionHeader';
 
 const Hero = () => {
   return (
@@ -27,23 +29,11 @@ const Hero = () => {
       />
       <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
         <div className="text-center">
-          <h1 className="text-3xl font-extrabold text-dark-indigo sm:text-5xl">
-            Designing experiences that deliver.
-          </h1>
+          <SectionHeader header={'Designing experiences that deliver.'} />
           <p className="mt-4 text-2xl font-medium leading-8 text-dark-indigo">
             The world needs what you’re offering. Make sure they see it.
           </p>
-          <div className="mt-8 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-full bg-light-indigo px-14 py-5 text-xs uppercase tracking-wider text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              GET A FREE CONSULTATION{' '}
-              <span className="ml-2" aria-hidden="true">
-                →
-              </span>
-            </a>
-          </div>
+          <Button copy={'GET A FREE CONSULTATION →'} />
         </div>
       </div>
     </div>

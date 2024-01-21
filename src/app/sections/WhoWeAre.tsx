@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import SectionTitle from '../components/SectionTitle';
 
 const WhoWeAre = () => {
   return (
@@ -12,9 +13,7 @@ const WhoWeAre = () => {
             width={120}
           />
         </div>
-        <p className="text-base font-semibold uppercase tracking-widest text-dark-indigo">
-          Who we are
-        </p>
+        <SectionTitle title={'Who we are'} />
         <p className="mt-6 text-lg font-medium leading-8 text-dark-indigo">
           We’re a small team of experienced developers and engineers with
           collective 5 years of experience in web, mobile, and product

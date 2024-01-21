@@ -1,10 +1,10 @@
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Feature from './components/Feature';
-import WhatWeDo from './components/WhatWeDo';
-import WhoWeAre from './components/WhoWeAre';
-import WhatWeOffer from './components/WhatWeOffer';
-import FAQ from './components/FAQ';
+import Hero from './sections/Hero';
+import Feature from './sections/Feature';
+import WhatWeDo from './sections/WhatWeDo';
+import WhoWeAre from './sections/WhoWeAre';
+import WhatWeOffer from './sections/WhatWeOffer';
+import FAQ from './sections/FAQ';
 
 const Home = () => {
   return (
