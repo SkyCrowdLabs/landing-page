@@ -6,6 +6,7 @@ import WhoWeAre from './sections/WhoWeAre';
 import WhatWeOffer from './sections/WhatWeOffer';
 import FAQ from './sections/FAQ';
 import GetInTouch from './sections/GetInTouch';
+import Footer from './sections/Footer';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <WhatWeOffer />
       <FAQ />
       <GetInTouch />
+      <Footer />
     </div>
   );
 };

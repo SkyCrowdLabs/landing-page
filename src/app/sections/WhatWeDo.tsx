@@ -33,7 +33,7 @@ const WhatWeDo = () => {
         </p>
         <EmailInput
           placeholder={"What's your email"}
-          copy={'Learn more about us →'}
+          copy={'Learn more about us'}
         />
       </div>
     </div>

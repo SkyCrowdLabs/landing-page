@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import HorizontalLogo from './HorizontalLogo';
 
 const Navbar = () => {
   return (
@@ -8,15 +9,7 @@ const Navbar = () => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">SkyCrowd Labs</span>
-            <Image
-              src="/skycrowd-indigo-logo.svg"
-              alt=""
-              height={150}
-              width={150}
-            />
-          </a>
+          <HorizontalLogo />
         </div>
         <div className="hidden tracking-wide md:flex md:flex-1 md:justify-end">
           Bespoke web development services
