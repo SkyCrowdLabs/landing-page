@@ -1,17 +1,16 @@
-import type { Metadata } from "next";
-import { Lato } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Lato } from 'next/font/google';
+import './globals.css';
 
 const lato = Lato({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-lato",
-  weight: ["100", "300", "400", "700", "900"],
+  subsets: ['latin'],
+  variable: '--font-lato',
+  weight: ['100', '300', '400', '700', '900'],
 });
 
 export const metadata: Metadata = {
-  title: "SkyCrowd Labs",
-  description: "Bespoke web development services",
+  title: 'SkyCrowd Labs',
+  description: 'Bespoke web development services',
 };
 
 export default function RootLayout({
@@ -20,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${lato.variable}`}>
+    <html lang="en" className={`${lato.variable} font-sans`}>
       <body>{children}</body>
     </html>
   );
