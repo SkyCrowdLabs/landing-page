@@ -31,10 +31,12 @@ const WhatWeDo = () => {
           support services. We’ll take care of all the technicalities, so you
           can focus on building your business.
         </p>
-        <EmailInput
-          placeholder={"What's your email"}
-          copy={'Learn more about us'}
-        />
+        <div className="mt-12 flex w-full flex-row justify-center">
+          <EmailInput
+            placeholder={"What's your email"}
+            copy={'Learn more about us'}
+          />
+        </div>
       </div>
     </div>
   );

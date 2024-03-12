@@ -97,7 +97,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="mt-16 grid gap-8 lg:grid-cols-2 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <ul role="list" className="mt-6 space-y-4">
@@ -114,11 +114,9 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                Subscribe to our newsletter
-              </div>
-              <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="flex flex-col justify-end">
+              <div>Subscribe to our newsletter</div>
+              <div>
                 <EmailInput placeholder={'enter email'} copy={'submit'} />
               </div>
             </div>

@@ -5,7 +5,7 @@ interface EmailInputProps {
 
 const EmailInput: React.FC<EmailInputProps> = ({ placeholder, copy }) => {
   return (
-    <form className="mt-12 flex w-full justify-center">
+    <form className="flex justify-start">
       <div className="flex flex-col gap-4 sm:flex-row sm:gap-0 lg:col-span-5 lg:pt-2">
         <label htmlFor="email-address" className="sr-only">
           {placeholder}
@@ -21,7 +21,7 @@ const EmailInput: React.FC<EmailInputProps> = ({ placeholder, copy }) => {
         />
         <button
           type="submit"
-          className="z-20 flex rounded-full bg-light-indigo px-8 py-5 text-xs uppercase tracking-wider text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:-ml-10"
+          className="z-20 flex min-w-32 rounded-full bg-light-indigo px-8 py-5 text-xs uppercase tracking-wider text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:-ml-10"
         >
           {`${copy} →`}
         </button>
