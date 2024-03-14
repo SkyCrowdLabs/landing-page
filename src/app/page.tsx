@@ -4,7 +4,6 @@ import Feature from './sections/Feature';
 import WhatWeDo from './sections/WhatWeDo';
 import WhoWeAre from './sections/WhoWeAre';
 import WhatWeOffer from './sections/WhatWeOffer';
-import FAQ from './sections/FAQ';
 import GetInTouch from './sections/GetInTouch';
 import Footer from './sections/Footer';
 
@@ -17,7 +16,6 @@ const Home = () => {
       <WhatWeDo />
       <WhoWeAre />
       <WhatWeOffer />
-      <FAQ />
       <GetInTouch />
       <Footer />
     </div>
