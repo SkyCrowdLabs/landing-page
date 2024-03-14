@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/16/solid';
+import Image from 'next/image';
 import Button from '../components/Button';
 import SectionTitle from '../components/SectionTitle';
 import SectionHeader from '../components/SectionHeader';
@@ -26,7 +26,21 @@ const tiers = [
 
 const WhatWeOffer = () => {
   return (
-    <div className="isolate overflow-hidden">
+    <div className="relative isolate overflow-hidden">
+      <Image
+        src="/squiggly-3.svg"
+        alt="squiggly graphics"
+        height={320}
+        width={330}
+        className="absolute -left-36 top-16 rotate-[160deg] -scale-x-100"
+      />
+      <Image
+        src="/squiggly-2.svg"
+        alt="squiggly graphics"
+        height={320}
+        width={330}
+        className="absolute -right-40 top-80 rotate-[190deg] -scale-x-100"
+      />
       <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <SectionTitle title={'What we offer'} />
