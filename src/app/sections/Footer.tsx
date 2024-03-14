@@ -115,7 +115,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col justify-end">
-              <div>Subscribe to our newsletter</div>
+              <div className="mb-2 text-2xl">Subscribe to our newsletter</div>
               <div>
                 <EmailInput placeholder={'enter email'} copy={'submit'} />
               </div>
