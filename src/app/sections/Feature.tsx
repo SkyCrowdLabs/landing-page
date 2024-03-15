@@ -48,10 +48,10 @@ const Feature = () => {
           {features.map((feature) => (
             <div key={feature.name} className="my-6 lg:my-0">
               <dt>
-                <div className="flex items-center justify-center rounded-xl">
+                <div className="flex scale-75 items-center justify-center rounded-xl sm:scale-100">
                   {feature.icon}
                 </div>
-                <p className="mt-6 px-16 text-center text-xl font-semibold leading-8 tracking-wider text-white">
+                <p className="text-l mt-6 px-16 text-center font-semibold leading-8 tracking-wider text-white sm:text-xl">
                   {feature.name}
                 </p>
               </dt>
