@@ -18,14 +18,14 @@ const Hero = () => {
         alt="squiggly graphics"
         height={300}
         width={280}
-        className="absolute -left-24 top-1/3 -z-20 hidden rotate-90 scale-75 md:scale-100 lg:block"
+        className="absolute -left-24 top-1/3 -z-20 hidden rotate-90 scale-75 lg:block lg:scale-100"
       />
       <Image
         src="/squiggly-3.svg"
         alt="squiggly graphics"
         height={320}
         width={330}
-        className="absolute -bottom-28 -right-16 -z-20 hidden  -rotate-[150deg] scale-75 sm:block md:scale-100"
+        className="absolute -bottom-28 -right-16 -z-20 hidden  -rotate-[150deg] scale-75 sm:block lg:scale-100"
       />
       <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
         <div className="text-center">

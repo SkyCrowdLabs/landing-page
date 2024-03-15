@@ -11,7 +11,7 @@ const WhatWeDo = () => {
         alt="squiggly graphics"
         height={400}
         width={380}
-        className="absolute -bottom-20 right-5 z-20 hidden scale-75 sm:block md:scale-100"
+        className="absolute -bottom-20 right-5 z-20 hidden scale-75 sm:block lg:scale-100"
       />
       <Image
         src="/squiggly-8.svg"

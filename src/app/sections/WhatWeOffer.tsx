@@ -32,14 +32,14 @@ const WhatWeOffer = () => {
         alt="squiggly graphics"
         height={320}
         width={330}
-        className="absolute -left-36 top-16 hidden rotate-[160deg] -scale-x-100 sm:block"
+        className="absolute -left-36 top-16 -z-10 hidden rotate-[160deg] -scale-x-100 lg:block"
       />
       <Image
         src="/squiggly-2.svg"
         alt="squiggly graphics"
         height={320}
         width={330}
-        className="absolute -right-40 top-80 hidden rotate-[190deg] -scale-x-100 sm:block"
+        className="absolute -right-40 top-80 -z-10 hidden rotate-[190deg] -scale-x-100 sm:block"
       />
       <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">

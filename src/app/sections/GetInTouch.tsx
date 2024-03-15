@@ -11,14 +11,14 @@ const GetInTouch = () => {
         alt="squiggly graphics"
         height={320}
         width={330}
-        className="absolute -left-12 -top-32 hidden sm:block"
+        className="absolute -left-12 -top-32 hidden scale-75 sm:block lg:scale-100"
       />
       <Image
         src="/squiggly-1.svg"
         alt="squiggly graphics"
         height={320}
         width={330}
-        className="absolute -right-12 top-20 hidden -rotate-[45deg] scale-125 sm:block"
+        className="absolute -right-12 top-20 hidden -rotate-[45deg] scale-100 lg:block"
       />
       <div className="mx-auto max-w-4xl text-center">
         <SectionTitle title={'Start a project'} />
