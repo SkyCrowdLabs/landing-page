@@ -11,14 +11,14 @@ const WhatWeDo = () => {
         alt="squiggly graphics"
         height={400}
         width={380}
-        className="absolute -bottom-20 right-5 z-20 hidden sm:block"
+        className="absolute -bottom-20 right-5 z-20 hidden scale-75 sm:block md:scale-100"
       />
       <Image
         src="/squiggly-8.svg"
         alt="squiggly graphics"
         height={420}
         width={400}
-        className="absolute -bottom-32 z-20 hidden rotate-[-20deg] sm:block"
+        className="absolute -bottom-32 -left-20 z-20 hidden rotate-[-20deg] lg:block"
       />
       <div className="mx-auto max-w-4xl text-center">
         <SectionTitle title={'What we do'} />
