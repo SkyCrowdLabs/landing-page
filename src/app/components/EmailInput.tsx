@@ -1,18 +1,41 @@
+'use client';
+
+import { useForm, SubmitHandler } from 'react-hook-form';
+
 interface EmailInputProps {
   placeholder: string;
   copy: string;
 }
 
+type Inputs = {
+  email: string;
+};
+
 const EmailInput: React.FC<EmailInputProps> = ({ placeholder, copy }) => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<Inputs>();
+  const onSubmit: SubmitHandler<Inputs> = async ({ email }) => {
+    await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/emails`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    });
+  };
+
   return (
-    <form className="flex justify-start">
+    <form className="flex justify-start" onSubmit={handleSubmit(onSubmit)}>
       <div className="flex flex-col gap-4 sm:flex-row sm:gap-0 lg:col-span-5 lg:pt-2">
         <label htmlFor="email-address" className="sr-only">
           {placeholder}
         </label>
         <input
+          {...register('email', { required: 'true' })}
           id="email-address"
-          name="email"
           type="email"
           autoComplete="email"
           required
