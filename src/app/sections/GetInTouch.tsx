@@ -5,7 +5,7 @@ import Button from '../components/Button';
 
 const GetInTouch = () => {
   return (
-    <div className="relative bg-white bg-hero-pattern bg-cover px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative bg-white bg-hero-pattern bg-cover bg-right-bottom px-6 py-24 sm:py-32 lg:px-8">
       <Image
         src="/squiggly-7.svg"
         alt="squiggly graphics"

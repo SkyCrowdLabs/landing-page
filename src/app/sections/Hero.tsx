@@ -5,7 +5,7 @@ import SectionHeader from '../components/SectionHeader';
 
 const Hero = () => {
   return (
-    <div className="pt-14lg:px-8 relative isolate bg-hero-pattern bg-cover px-6">
+    <div className="relative isolate bg-hero-pattern bg-cover bg-right-bottom bg-no-repeat px-6 pt-14 lg:px-8">
       <Image
         src="/squiggly-4.svg"
         alt="squiggly graphics"

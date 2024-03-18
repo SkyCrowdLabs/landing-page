@@ -3,7 +3,7 @@ import SectionTitle from '../components/SectionTitle';
 
 const WhoWeAre = () => {
   return (
-    <div className="bg-white bg-hero-pattern bg-cover px-6 py-24 sm:py-32 lg:px-8">
+    <div className="bg-white bg-hero-pattern bg-cover bg-right-bottom px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
         <div className="mb-10 flex w-full flex-row justify-center">
           <Image
