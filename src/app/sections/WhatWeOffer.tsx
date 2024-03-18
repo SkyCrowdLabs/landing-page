@@ -81,7 +81,10 @@ const WhatWeOffer = () => {
                 </div>
               </div>
               <div className="flex justify-center lg:col-span-3">
-                <Button copy={'Get a quotation'} />
+                <Button
+                  copy={'Get a quotation'}
+                  href="https://calendly.com/skycrowd/inquire"
+                />
               </div>
             </div>
           </div>

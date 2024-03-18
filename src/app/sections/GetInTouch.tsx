@@ -23,7 +23,10 @@ const GetInTouch = () => {
       <div className="mx-auto max-w-4xl text-center">
         <SectionTitle title={'Start a project'} />
         <SectionHeader header={'Let’s Work Together!'} />
-        <Button copy={'Get in touch'} />
+        <Button
+          copy={'Get in touch'}
+          href="https://calendly.com/skycrowd/inquire"
+        />
       </div>
     </div>
   );
