@@ -1,5 +1,5 @@
 import { SVGProps } from 'react';
-import EmailInput from '../components/EmailInput';
+import Button from '../components/Button';
 import HorizontalLogo from '../components/HorizontalLogo';
 
 const navigation = {
@@ -104,9 +104,11 @@ const Footer = () => {
           <div className="mt-16 grid gap-8 lg:grid-cols-2 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8"></div>
             <div className="flex flex-col justify-end">
-              <div className="mb-2 text-2xl">Subscribe to our newsletter</div>
               <div>
-                <EmailInput placeholder={'ENTER EMAIL'} copy={'submit'} />
+                <Button
+                  copy={'Fill out the contact form'}
+                  href="https://mlawd8f2p12.typeform.com/to/bwLp4wl3"
+                />
               </div>
             </div>
           </div>

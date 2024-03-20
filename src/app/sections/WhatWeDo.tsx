@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import EmailInput from '../components/EmailInput';
+import Button from '../components/Button';
 import SectionTitle from '../components/SectionTitle';
 import SectionHeader from '../components/SectionHeader';
 
@@ -32,9 +32,9 @@ const WhatWeDo = () => {
           can focus on building your business.
         </p>
         <div className="mt-12 flex w-full flex-row justify-center">
-          <EmailInput
-            placeholder={"WHAT'S YOUR EMAIL"}
-            copy={'Learn more about us'}
+          <Button
+            copy={'Tell us how we can help'}
+            href="https://mlawd8f2p12.typeform.com/to/bwLp4wl3"
           />
         </div>
       </div>

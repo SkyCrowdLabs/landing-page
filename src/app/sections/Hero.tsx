@@ -34,8 +34,8 @@ const Hero = () => {
             The world needs what you’re offering. Make sure they see it.
           </p>
           <Button
-            copy={'GET A FREE CONSULTATION'}
-            href="https://calendly.com/skycrowd/inquire"
+            copy={'Stand Out Today'}
+            href="https://mlawd8f2p12.typeform.com/to/bwLp4wl3"
           />
         </div>
       </div>

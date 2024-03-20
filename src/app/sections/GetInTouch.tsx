@@ -25,7 +25,7 @@ const GetInTouch = () => {
         <SectionHeader header={'Let’s Work Together!'} />
         <Button
           copy={'Get in touch'}
-          href="https://calendly.com/skycrowd/inquire"
+          href="https://mlawd8f2p12.typeform.com/to/bwLp4wl3"
         />
       </div>
     </div>
