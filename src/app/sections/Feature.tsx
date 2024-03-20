@@ -1,4 +1,3 @@
-import { BoltIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
 const features = [
@@ -10,6 +9,7 @@ const features = [
         alt="collaboration graphic"
         height={120}
         width={120}
+        className="h-auto w-28"
         aria-hidden="true"
       />
     ),
@@ -22,6 +22,7 @@ const features = [
         alt="app graphic"
         height={120}
         width={120}
+        className="h-auto w-28"
         aria-hidden="true"
       />
     ),
@@ -34,6 +35,7 @@ const features = [
         alt="support graphic"
         height={120}
         width={120}
+        className="h-auto w-28"
         aria-hidden="true"
       />
     ),
