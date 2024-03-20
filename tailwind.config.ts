@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/purple-airbrush.png')",
+        bg: "url('/bg.png')",
       },
       fontFamily: {
         sans: ['var(--font-lato)'],
