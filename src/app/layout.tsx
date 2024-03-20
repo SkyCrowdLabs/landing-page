@@ -11,7 +11,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: 'SkyCrowd Labs',
+  title: 'SkyCrowd Labs | Bespoke web development services',
   description: 'Bespoke web development services',
 };
 
