@@ -6,7 +6,7 @@ const navigation = {
   social: [
     {
       name: 'GitHub',
-      href: 'https://github.com/SkyCrowd',
+      href: 'https://github.com/SkyCrowdLabs',
       icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
