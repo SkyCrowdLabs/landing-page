@@ -33,7 +33,7 @@ const WhatWeDo = () => {
         </p>
         <div className="mt-12 flex w-full flex-row justify-center">
           <EmailInput
-            placeholder={"What's your email"}
+            placeholder={"WHAT'S YOUR EMAIL"}
             copy={'Learn more about us'}
           />
         </div>
