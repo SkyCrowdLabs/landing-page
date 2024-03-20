@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${lato.variable} font-sans`}>
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -40,7 +41,6 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
