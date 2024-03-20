@@ -9,16 +9,16 @@ const WhatWeDo = () => {
       <Image
         src="/squiggly-5.svg"
         alt="squiggly graphics"
-        height={400}
-        width={380}
-        className="absolute -bottom-20 right-5 z-20 hidden scale-75 sm:block lg:scale-100"
+        height={0}
+        width={0}
+        className="absolute -bottom-20 right-5 z-20 hidden h-auto w-[380px] scale-75 sm:block lg:scale-100"
       />
       <Image
         src="/squiggly-8.svg"
         alt="squiggly graphics"
-        height={420}
-        width={400}
-        className="absolute -bottom-32 -left-20 z-20 hidden rotate-[-20deg] lg:block"
+        height={0}
+        width={0}
+        className="absolute -bottom-32 -left-20 z-20 hidden h-auto w-[400px] rotate-[-20deg] lg:block"
       />
       <div className="mx-auto max-w-4xl text-center">
         <SectionTitle title={'What we do'} />

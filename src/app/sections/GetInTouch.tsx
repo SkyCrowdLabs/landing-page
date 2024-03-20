@@ -9,16 +9,16 @@ const GetInTouch = () => {
       <Image
         src="/squiggly-7.svg"
         alt="squiggly graphics"
-        height={320}
-        width={330}
-        className="absolute -left-12 -top-32 hidden scale-75 sm:block lg:scale-100"
+        height={0}
+        width={0}
+        className="absolute -left-12 -top-32 hidden h-auto w-[330px] scale-75  sm:block lg:scale-100"
       />
       <Image
         src="/squiggly-1.svg"
         alt="squiggly graphics"
-        height={320}
-        width={330}
-        className="absolute -right-12 top-20 hidden -rotate-[45deg] scale-100 lg:block"
+        height={0}
+        width={0}
+        className="absolute -right-12 top-20 hidden h-auto w-[330px] -rotate-[45deg] scale-100 lg:block"
       />
       <div className="mx-auto max-w-4xl text-center">
         <SectionTitle title={'Start a project'} />
