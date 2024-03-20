@@ -9,8 +9,9 @@ const WhoWeAre = () => {
           <Image
             src="/cloud-logo.svg"
             alt="cloud logo"
-            height={70}
-            width={120}
+            height={0}
+            width={0}
+            className="h-auto w-[120px]"
           />
         </div>
         <SectionTitle title={'Who we are'} />
