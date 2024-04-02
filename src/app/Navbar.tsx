@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import HorizontalLogo from './HorizontalLogo';
+import HorizontalLogo from '../components/HorizontalLogo';
 
 const Navbar = () => {
   return (
