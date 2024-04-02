@@ -5,13 +5,13 @@ import SectionHeader from '../components/SectionHeader';
 
 const Hero = () => {
   return (
-    <div className="relative isolate bg-splash-bg bg-[size:100%_auto] bg-right-bottom bg-no-repeat px-6 pt-14 lg:bg-[size:auto_100%] lg:px-8">
+    <div className="relative isolate bg-splash-bg bg-[size:100%_auto] bg-right-bottom bg-no-repeat px-6 lg:bg-[size:auto_100%] lg:px-8">
       <Image
         src="/squiggly-4.svg"
         alt="squiggly graphics"
         height={0}
         width={0}
-        className="top-18 absolute left-[calc(50%-80px)] -z-20 hidden h-auto w-[280px] scale-75 sm:block md:scale-100"
+        className="absolute -top-10 left-[calc(50%-80px)] -z-20 hidden h-auto w-[280px] scale-75 sm:block md:scale-100"
       />
       <Image
         src="squiggly-7.svg"

@@ -54,12 +54,12 @@ export default function RootLayout({
             <div className="flex lg:flex-1">
               <HorizontalLogo />
             </div>
-            <div className="hidden tracking-wide md:flex md:flex-1 md:justify-end">
+            <div className="hidden tracking-wide text-white md:flex md:flex-1 md:justify-end">
               Bespoke web development services
             </div>
           </nav>
         </header>
-        {children}
+        <div className="bg-white pt-[92px]">{children}</div>
         <Analytics />
         <SpeedInsights />
       </body>

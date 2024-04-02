@@ -6,6 +6,7 @@ import WhoWeAre from './WhoWeAre';
 import WhatWeOffer from './WhatWeOffer';
 import GetInTouch from './GetInTouch';
 import Footer from './Footer';
+import Portfolio from './Portfolio';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WhatWeDo />
       <WhoWeAre />
       <WhatWeOffer />
+      <Portfolio />
       <GetInTouch />
       <Footer />
     </div>
