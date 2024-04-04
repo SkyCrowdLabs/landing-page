@@ -4,9 +4,11 @@ import SectionHeader from '@/components/SectionHeader';
 import Link from 'next/link';
 
 const projects = [
-  { href: '/projects/ditoname', name: 'Ditoname' },
-  { href: '/projects/tbsph', name: 'True blue' },
+  { href: '/projects/ditoname', name: 'Ditona.me' },
+  { href: '/projects/kodigome', name: 'Kodigo.me' },
+  { href: '/projects/tbsph', name: 'True blue PH' },
   { href: '/projects/vfr-planner', name: 'VFR planner' },
+  { href: '/projects/skycrowd-website', name: 'SkyCrowd Labs website' },
 ];
 
 const Portfolio = () => {
