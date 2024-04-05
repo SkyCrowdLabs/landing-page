@@ -18,7 +18,7 @@ const Portfolio = () => {
             <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-teal-50 p-4">
               <Image
                 className="h-auto w-64"
-                src="/images/ditoname.webp"
+                src="/ditoname.webp"
                 alt="dito na me logo"
                 height={256}
                 width={256}
@@ -32,7 +32,7 @@ const Portfolio = () => {
             <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-red-50 p-4">
               <Image
                 className="h-auto w-64"
-                src="/images/kodigome.svg"
+                src="/kodigome.svg"
                 alt="kodigo logo"
                 height={256}
                 width={256}
@@ -46,7 +46,7 @@ const Portfolio = () => {
             <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-blue-50 p-12">
               <Image
                 className="h-auto w-56"
-                src="/images/airplane.png"
+                src="/airplane.png"
                 alt="vfr planner logo"
                 height={224}
                 width={224}
