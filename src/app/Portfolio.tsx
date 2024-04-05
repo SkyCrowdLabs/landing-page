@@ -12,7 +12,7 @@ const Portfolio = () => {
         <SectionHeader header={'Our featured work'} />
         <div className="my-10 grid grid-cols-1 gap-4 lg:mt-14 lg:grid-cols-3">
           <Link
-            href={'/projects/ditoname'}
+            href={'https://ditona.me/'}
             className="mx-auto flex w-full justify-center lg:justify-end"
           >
             <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-teal-50 p-4">
@@ -26,7 +26,7 @@ const Portfolio = () => {
             </div>
           </Link>
           <Link
-            href={'/projects/kodigome'}
+            href={'https://kodigo.me/'}
             className="mx-auto flex w-full justify-center"
           >
             <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-red-50 p-4">
@@ -40,7 +40,7 @@ const Portfolio = () => {
             </div>
           </Link>
           <Link
-            href={'/projects/vfr-planner'}
+            href={'https://vfr-planner.skycrowd.dev/'}
             className="mx-auto flex w-full justify-center lg:justify-start"
           >
             <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-blue-50 p-12">
