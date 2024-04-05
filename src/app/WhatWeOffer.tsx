@@ -44,7 +44,7 @@ const WhatWeOffer = () => {
       <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <SectionTitle title={'What we offer'} />
-          <SectionHeader header={'Bring Your Business Online'} />
+          <SectionHeader header={'Bring your business online'} />
         </div>
       </div>
       <div className="flow-root bg-white pb-24 sm:pb-32">

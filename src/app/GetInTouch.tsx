@@ -22,7 +22,7 @@ const GetInTouch = () => {
       />
       <div className="mx-auto max-w-4xl text-center">
         <SectionTitle title={'Start a project'} />
-        <SectionHeader header={'Let’s Work Together!'} />
+        <SectionHeader header={'Let’s work together!'} />
         <Button
           copy={'Get in touch'}
           href="https://mlawd8f2p12.typeform.com/to/bwLp4wl3"
